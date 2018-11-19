@@ -1,0 +1,6 @@
+ran = range(0,30)
+num = int(input("Please enter a number: "))
+if num in ran:
+    print("You number is a part of our list.")
+else:
+    print("The number you enter is not a part of our list.")
